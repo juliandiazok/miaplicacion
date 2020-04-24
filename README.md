@@ -1,2 +1,2 @@
-# Proyecto
-Esta es mi aplicacion
+# miaplicacion
+_Esta es mi aplicacion para german_
