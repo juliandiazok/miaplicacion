@@ -1,0 +1,51 @@
+<form action="/exitoso.html" method="post">
+    Formulario de Contacto con la UTN FRRE
+    <br>
+    <ul>
+     <li>
+       <label for="name">Nombre:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <br>
+     <li>
+        <label for="lastname">Apellido:</label>
+        <input type="text" id="lastname" name="user_lastname" required>
+      </li>
+      <br>
+     <li>
+       <label for="mail">Correo electrónico:</label>
+       <input type="email" id="mail" name="user_mail" required>
+     </li>
+     <br>
+     <li>
+        <label for="legajo">Legajo:</label>
+        <input type="number" id="legajo" name="user_legajo" min="1" required>
+      </li>
+      <br>
+     <li>
+        <label for="year">Año de Nacimiento:</label>
+        <input type="number" id="year" name="user_year" min="1900">
+      </li>
+      <br>
+      <li>
+        <label for="sex">Sexo:</label>
+        <input type="radio" id="sex" name="user_sex" value="m"> Hombre
+        <input type="radio" id="sex" name="user_sex" value="f"> Mujer
+      </li>
+      <br>
+      <li>
+        <label for="career">Carrera:</label>
+        <input type="radio" id="career" name="user_career" value="isi"> ISI
+        <input type="radio" id="career" name="user_career" value="iem"> IEM
+        <input type="radio" id="career" name="user_career" value="iq"> IQ
+        <input type="radio" id="career" name="user_career" value="lar"> LAR
+      </li>
+      <br>
+     <li>
+       <label for="msg">Mensaje:</label>
+       <textarea id="msg" name="user_message" required></textarea>
+     </li>
+     <br>
+     <input type="submit" value="Enviar">
+    </ul>
+   </form>
